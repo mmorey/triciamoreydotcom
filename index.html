@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tricia Morey - Accident Reconstructionist</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Personal website of Tricia Morey, an accident reconstructionist.">
+  <meta name="keywords" content="Tricia Morey, engineer, accident reconstruction">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0C5D7C">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <img id="logo" src="tricia.jpg" alt="Tricia Morey">
+    <h1>Tricia Morey</h1>
+    <p>Accident Reconstructionist</p>
+  </header>
+  <main>
+    <section>
+      <p>Tricia Morey is an Accident Reconstruction Consultant with over 15 years experience. She has been a licensed
+        Professional Engineer in the state of Texas since 2012. She received a Masters and Bachelors degree in
+        Mechanical Engineering from the University of Florida. Tricia's primary focus is on creating animations,
+        simulations, and
+        analysis for court room presentations of passenger vehicles and heavy trucks accidents, but she also has
+        experience
+        reconstructing motorcycle, bicycle, scooter, and pedestrian involved incidents. Before becoming a full time
+        Accident Reconstruction Consultant, she worked for Solar Turbines, a Caterpillar Company, for over 12 years
+        designing gas
+        turbines and large scale gas refining facilities for oil and gas, and power generation applications.</p>
+    </section>
+
+    <section>
+      <h2>Education:</h2>
+      <ul>
+        <li>Masters of Science, Mechanical Engineering, University of Florida, 2008</li>
+        <li>Bachelors of Science, Mechanical Engineering, University of Florida, 2007</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Licensure:</h2>
+      <ul>
+        <li>Professional Engineer, Texas, #113128</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Professional Development Courses:</h2>
+      <ul>
+        <li>Injuries, Anatomy, Biomechanics, and Federal Regulation, SAE, 2024</li>
+        <li>Motorcycle Collision Reconstruction, Lightpoint Learning, 2024</li>
+        <li>The Fundamentals of Vehicle Dynamics, SAE, 2023</li>
+        <li>Driver Distraction from Electronic Devices: Insights and Implications, SAE, 2023</li>
+        <li>Applying Automotive EDR Data to Traffic Crash Reconstruction, SAE, 2023</li>
+        <li>Reconstruction and Analysis of Rollover Crashes of Light Vehicles, SAE, 2023</li>
+      </ul>
+    </section>
+
+    <section id="share">
+
+      <nav class="buttons">
+
+        <a class="button email" href="#" id="emailLink" target="_blank">
+          <em>Write me</em> <strong>Email</strong>
+        </a>
+
+      </nav>
+    </section>
+  </main>
+
+  <script language="JavaScript" type="text/javascript">
+    var part1 = "m";
+    var part2 = "e";
+    var part3 = Math.pow(2, 6);
+    var part4 = String.fromCharCode(part3);
+    var part5 = "triciamorey";
+    var part6 = ".com";
+    var secret = part1 + part2 + part4 + part5 + part6;
+    var link = document.getElementById("emailLink");
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      window.location.href = "mailto:" + secret;
+    });
+  </script>
+</body>
+
+</html>
